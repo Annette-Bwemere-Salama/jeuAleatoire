@@ -23,8 +23,8 @@ do {
 		console.log('Votre numéro est trop élévée');
 		round--;
 	} else if (userInput < toDevinne) {
-		alert('Your number is too small');
-		console.log('Your number is too small');
+		alert('Essaie de monter un petit peu');
+		console.log('Essaie de monter un petit peu');
 		round--;
 	} else {
 		win = true;
@@ -33,7 +33,7 @@ do {
 } while (round > 0 && win === false);
 
 if (win) {
-	alert('Tu as gagné');
+	prompt('Tu as gagné');
 } else {
-	alert('Tu as perdu');
+	prompt('Tu as perdu');
 }
