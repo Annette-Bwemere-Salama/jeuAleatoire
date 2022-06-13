@@ -12,6 +12,9 @@ body{
     margin-left: 150px;
     border-radius: 25px;
 }
+section{
+    margin: 75px;
+}
 section, h1{
     text-decoration: solid;
     text-shadow: 7px;
