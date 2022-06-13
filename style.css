@@ -1,6 +1,25 @@
 body{
     border: blanchedalmond;
-    color: blue;
+    color: rgb(0, 132, 255);
+
+
+}
+#physique{
     background-color: black;
     text-align: center;
+    width: 360px;
+    height: 290px;
+    margin-left: 150px;
+    border-radius: 25px;
+}
+section, h1{
+    text-decoration: solid;
+    text-shadow: 7px;
+}
+#name{
+    border-radius: 10px;
+    margin: 50px;
+}
+.button{
+    color:rgb(14, 14, 19)
 }
